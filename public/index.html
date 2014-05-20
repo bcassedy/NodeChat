@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src='/public/javascripts/chat.js'></script>
+    <script src='/public/javascripts/chat_ui.js'></script>
+  </head>
+  <body>
+    <h1>In the index</h1>
+    <div id='messages'></div>
+
+    <form id='new-message-form' action="" method="post" accept-charset="utf-8">
+      <label>Message Text
+      <input id="message-input" type='text' name='message'>
+    </label>
+      <p><input type="submit" value="Send Message"></p>
+    </form>
+  </body>
+</html>
