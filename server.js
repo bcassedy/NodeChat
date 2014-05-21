@@ -5,6 +5,7 @@ var mime = require('./node_modules/mime');
 var router = require('./router');
 var chatServer = require('./lib/chat_server');
 
+
 var server = http.createServer(function (request, response) {
   router(request, response);
 }).listen(3333);
